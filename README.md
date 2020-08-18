@@ -139,3 +139,21 @@ const reportingForDuty = (rank, lastName) => `${rank} ${lastName} reporting for 
 console.log(reportingForDuty('Private', 'Fido'));
 
 ```
+
+
+#### 7)Escreva uma função rollTheDice() que deve simular dois dados sendo lançados e que some os valores.
+
+```
+
+const rollTheDice = () => {
+  
+    let die1 = Math.floor(Math.random() * 6 + 1);
+    let die2 = Math.floor(Math.random() * 6 + 1);
+    return die1 + die2
+}
+
+console.log(rollTheDice());
+
+```
+
+
